@@ -1,0 +1,26 @@
+$cream: #f8f3eb;
+$ink: #30251f;
+$rust: #c66e4e;
+$serif: 'Playfair Display', Georgia, serif;
+$sans: 'DM Sans', Arial, sans-serif;
+
+:root {
+  --cream: #{$cream};
+  --ink: #{$ink};
+  --rust: #{$rust};
+}
+
+@mixin soft-hover {
+  transition: transform .2s ease, background-color .2s ease, color .2s ease;
+  &:hover { transform: translateY(-2px); }
+}
+
+.filter-chip {
+  @include soft-hover;
+  border-radius: 30px;
+  font-family: $sans;
+}
+.section-heading h2 {
+  font-family: $serif;
+  color: $ink;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Dessert & Soul",
+  "description": "A cozy little corner for handcrafted desserts, South Indian & Indo-Chinese dishes, coffee and good moments.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
